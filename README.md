@@ -16,7 +16,7 @@ Below is a summary
 
 ## Architecture explained 
 The multi modal in-model concatenation architechture has two parallel running pipeline as shown in the image below:
-![cnn-based-architecture](/image/cnn-architecture.png)
+![cnn-based-architecture](/image/multi-modal-architecture.png)
 There are two blocks in the architecture
 #### Block 1: Multi Modal
 - part 1: Fine tuning pretrained ResNet101 i.e. transfer learning
