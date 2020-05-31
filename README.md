@@ -28,8 +28,33 @@ Above parts are completed for both ELA transformed images and Original images
 - part 1: Using a two layerd perceptron based NNet with two output units. The FC NNet takes concatenated output from FC layers of trained ResNets. Features from a fully connected layer is extracted from both models (ELA transformed ResNet101 and Original Image ResNet101)
 - part 2: Concatenated feature array is used as input to predict probability of an image being 'Real' or 'Fake(tampered)'
 
+## Codebase
+Below is folder tree:
+``` bash
+Real_or_Fake/
+├── ELA_Tranformation
+│   └── ela_tranform_train.ipynb
+├── Fully_Connected_Net
+│   └── data_prep_NNet_ela_original_512_withFC_preds.ipynb
+├── LICENSE
+├── README.md
+├── ResNet_Training
+│   ├── base_code.ipynb
+│   ├── base_code_ela.ipynb
+│   ├── ela_resnext_101-Copy1.ipynb
+│   ├── ela_resnext_101.ipynb
+│   ├── resnet_fakers.ipynb
+│   ├── resnext101_train_test_val_probabilities.ipynb
+│   └── resnext_fakers.ipynb
+└── image
+    ├── cnn-architecture.png
+    ├── siamese-network.png
+    └── summary.png
+```
+
 ## On-going work
-Literature survey to assess siamese network[https://arxiv.org/pdf/1709.08761.pdf] for the classification task
+- Converting current codebase from fastai to PyTorch
+- Literature survey to assess [siamese network](https://arxiv.org/pdf/1709.08761.pdf) for the classification task
 Below is the architecture:
 ![Siamese-Network](/image/siamese-network.png)
 
