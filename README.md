@@ -32,24 +32,24 @@ Above parts are completed for both ELA transformed images and Original images
 Below is folder tree:
 ``` bash
 Real_or_Fake/
-├── ELA_Tranformation
-│   └── ela_tranform_train.ipynb
-├── Fully_Connected_Net
-│   └── data_prep_NNet_ela_original_512_withFC_preds.ipynb
 ├── LICENSE
 ├── README.md
-├── ResNet_Training
-│   ├── base_code.ipynb
-│   ├── base_code_ela.ipynb
-│   ├── ela_resnext_101-Copy1.ipynb
-│   ├── ela_resnext_101.ipynb
-│   ├── resnet_fakers.ipynb
-│   ├── resnext101_train_test_val_probabilities.ipynb
-│   └── resnext_fakers.ipynb
-└── image
-    ├── cnn-architecture.png
-    ├── siamese-network.png
-    └── summary.png
+├── ela_transformation
+│   └── ela_tranform_train.ipynb
+├── fully_connected_NNet
+│   └── data_prep_NNet_ela_original_512_withFC_preds.ipynb
+├── image
+│   ├── cnn-architecture.png
+│   ├── siamese-network.png
+│   └── summary.png
+└── multi_modal_ResNet_training
+    ├── base_code.ipynb
+    ├── base_code_ela.ipynb
+    ├── ela_resnext_101-Copy1.ipynb
+    ├── ela_resnext_101.ipynb
+    ├── resnet_fakers.ipynb
+    ├── resnext101_train_test_val_probabilities.ipynb
+    └── resnext_fakers.ipynb
 ```
 
 ## On-going work
