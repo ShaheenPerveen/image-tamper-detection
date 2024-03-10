@@ -1,4 +1,5 @@
-# Real_or_Fake
+# image-tamper-detection
+## Ral or Fake
 
 ## Introduction
 Given an image, classify if the image is real or product of tampering. Worked with 32000 high resolution images. On literature survey, found out a technique called [Error Level Analysis](https://resources.infosecinstitute.com/error-level-analysis-detect-image-manipulation/#gref) which is being used by forensics to determine tampering with photo evidences. ELA is based on uniformity of lossy compression techniques. 
